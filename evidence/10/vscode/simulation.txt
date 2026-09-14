@@ -1,0 +1,16 @@
+ *  Executing task in folder PROJECT: C:\Users\a2391\AppData\Local\Microsoft\WindowsApps\python.EXE tools/lab1.py simulate 
+
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab1_10_seven_segment\src -I C:\Users\a2391\lab1_10_seven_segment\sim -s tb_seg_decoder -o C:\Users\a2391\lab1_10_seven_segment\build\sim\run-bff83d92e6514ca5a98b241b6daa1c1e\sim.vvp C:\Users\a2391\lab1_10_seven_segment\src\seg_decoder.v C:\Users\a2391\lab1_10_seven_segment\sim\tb_seg_decoder.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module seg_decoder declared here: C:\Users\a2391\lab1_10_seven_segment\src\seg_decoder.v:1
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab1_10_seven_segment\build\sim\run-bff83d92e6514ca5a98b241b6daa1c1e\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB1_PASS seg_decoder cases=16
+C:\Users\a2391\lab1_10_seven_segment\sim\tb_seg_decoder.sv:35: $finish called at 160000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab1_10_seven_segment\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
