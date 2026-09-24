@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+LAB1_PASS seg_decoder cases=16
+$finish called at time : 160 ns : File "C:/Users/a2391/lab1_10_seven_segment/sim/tb_seg_decoder.sv" Line 35
